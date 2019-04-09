@@ -5,9 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <title>Conatct</title>
 </head>
 <style>
+    .contact {
+        padding:30px;
+        background-image: url(img/landing/2.jpg);
+        width:100%;
+        background-repeat: no-repeat;
+        background-position: relative;
+        background-position: center;
+        background-size: cover;
+        height: auto;
+    }
     h3 {
         font-weight: bolder;
         font-size: 30px;
@@ -15,16 +31,116 @@
         padding-top: 30px;
         padding-bottom: 30px;
     }
+    h4{
+        color:orangered;
+        font-weight: bolder;
+        font-size:30px;
+        padding-bottom:15px;
+
+    }
+    p{
+        color:white;
+    }
+    .fa{
+        color:white;
+        margin-right:10px;
+         padding:15px 15px 15px 15px; 
+         border:1px solid white; 
+         font-size:10px;
+    }
+    h5{
+        color:white;
+    }
+    label{
+        color:white;
+    }
 
     span {
         color: #9a2731;
     }
+    .form-control{
+        border-color:orangered;
+        /* margin-bottom:10px; */
+        background: transparent;
+        /* margin-top: 10px; */
+        height: 40px;
+    }
+    .btn{
+        height: 40px;
+        width: 70px;
+        border-color:orangered;
+        background-color: transparent;
+        float: right;
+        color:white
+
+    }
+    .btn:hover{
+color:orangered;
+background-color: white;
+    }
+    
 </style>
 
 <body>
     <section class="contactPage">
-        <div class="container-fluid">
-            <h3 class="heading">photo<span>Gallery</span></h3>
+        <h3 class="heading">Contact <span> Details</span></h3>
+
+        <div class="container-fluid contact">
+            <!-- <img src="img/landing/2.jpg"> -->
+            <div class="row">
+                <div class="contact_form">
+                    <!-- <div class="col-md-5">
+                        <p>hello</p>
+                    </div> -->
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6"> <label>First Name</label>
+                                <input type="text" name="name" class="form-control" style="border-color:orangerd">
+                            </div>
+                            <div class="col-md-6"> <label>Last Name</label>
+                                <input type="text" name="name" class="form-control" style="border-color:orangerd">
+                            </div>
+                        </div>
+                        <br>
+                        <label>Email/ContactNumber</label>
+                        <input type="email" name="Email" class="form-control">
+                        <br>
+                        <label> Dance Class</label>
+                        <select class="form-control">
+                            <input1 value="1"></input1>
+                            <option value="zoombaFittness">zoombaFittness</option>
+                            <option value="kathak">kathak</option>
+                            <option value="aerial-silk">aerial-silk</option>
+                            <option value="contemprory">contemprory</option>
+                            <option value="Hip-Hop">Hip-Hop</option>
+                            <option value="robbotics">robotics</option>
+                        </select>
+                        <br>
+
+                        <!-- <br> -->
+                        <label>Message</label>
+                        <input type="number" name="pphone" class="form-control" style="height:70px;">
+                        <br>
+                        <button class="btn">Submit</button>
+                    </div>
+                    <!-- </div> -->
+
+                    <div class="col-md-6">
+                        <h4>Tornado Dance Academy</h4>
+                        <p>contact us we will get back to you within 24 hours.
+
+                        </p>
+                        <h5><i class="fa fa-user" style=""></i> pooja ghawat/ Anupam Sir</h5>
+                        <h5><i class="fa fa-envelope"></i>Tornado.Academy@gmail.com</h5>
+                        <h5><i class="fa fa-phone"></i> +91 2232768912 / +91 123456987</h5>
+                        <h5><i class="fa fa-map-marker"></i> Tornado Dance Academy,Saidham Society,Near SBI
+                            Bank,shahad(w)</h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
         </div>
     </section>
 </body>
