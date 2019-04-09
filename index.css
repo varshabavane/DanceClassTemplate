@@ -1,0 +1,261 @@
+body{
+background-color:black;
+}
+.navBackground {
+    background: url(img/1.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.nav {
+    float: left;
+}
+
+/* .navBackground img {
+    background-image: url(img/1.jpg);
+    height: 200px;
+    width: 1200px;
+    margin: 0;
+} */
+
+ul {
+    list-style: none;
+    /* height: 50px; */
+    /* width: 100%; */
+    background-color: transparent;
+    opacity: 1px;
+    /* float: right; */
+    display: flex;
+
+
+}
+
+li a {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    float: right;
+    padding: 20px;
+
+}
+
+li a:hover {
+    list-style: none;
+    color:orangered;
+}
+
+
+/* ..............................about.......................... */
+
+.aboutPage{
+    /* background-color: #eec4c7; */
+}
+h3 {
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Bookman Old Style;
+    color:white;
+    padding: 5px 5px 5px 5px;
+    /* border:1px solid gray; */
+    border-radius: 10px;
+}
+
+span {
+    color: #9a2731;
+}
+
+.aboutPage p {
+    align: center;
+    font-weight: bold;
+    text-align: justify;
+    color:white;
+    margin:30px;
+}
+
+
+/* ---------------------------------------teachers---------------------------------- */
+.teachers{
+    /* background: rgb(186, 216, 228); */
+}
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+}
+
+.carousel-indicators li {
+    border-color: #f4511e;
+}
+
+.carousel-indicators li.active {
+    background-color: #f4511e;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item img {
+    /* position: center; */
+    height: 220px;
+    width: 220px;
+    border: 2px solid grey;
+    align-self: center;
+    padding: 3px;
+    /* margin-top: 60px; */
+    margin-left: 550px;
+}
+
+.item span {
+    font-style: normal;
+}
+
+
+
+
+/* -----------------------------gallery------------------------------ */
+.thumbnail {
+    border-color: transparent;
+}
+
+img{
+    width: 100%;
+}
+img:hover{
+    box-shadow: 3px 3px 3px 3px rgb(199, 195, 195);
+}
+
+
+/* -----------------------------contact--------------------------------- */
+.contact {
+    /* padding:30px; */
+    background-image: url(img/landing/2.jpg);
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+.contact{
+padding: 30px;
+}
+h3 {
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h4{
+    color:orangered;
+    font-weight: bolder;
+    font-size:30px;
+    padding-bottom:15px;
+
+}
+p{
+    color:white;
+}
+.fa{
+    color:white;
+    margin-right:10px;
+     padding:15px 15px 15px 15px; 
+     border:1px solid white; 
+     font-size:10px;
+}
+h5{
+    color:white;
+}
+label{
+    color:white;
+}
+
+span {
+    color: #9a2731;
+}
+.form-control{
+    border-color:orangered;
+    /* margin-bottom:10px; */
+    background: transparent;
+    /* margin-top: 10px; */
+    height: 40px;
+}
+.btn{
+    height: 40px;
+    width: 70px;
+    border-color:orangered;
+    background-color: transparent;
+    float: right;
+    color:white
+
+}
+.btn:hover{
+color:orangered;
+background-color: white;
+}
+
+
+/* ---------------------------------------footer------------------------------ */
+
+.footer {
+    margin-top:30px;
+    height: 50px;
+    width: 100%;
+    /* background: url(img/1.jpg); */
+    background-color:black;
+    opacity: 0.5px;
+    /* background-color: rgb(58, 19, 5); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.footer h5 {
+    margin: 16px;
+    float: left;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+.footer_icons {
+    float: right;
+}
+
+.footer_icons .fa {
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    /* margin: 10px; */
+    border-color:transparent;
+    /* -----------icon grow rotate animation----------------- */
+    display: inline-block;
+    vertical-align: middle;
+    transform:perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration:0.3s; 
+}
+.footer_icons .fa:hover{
+color: orangered;
+/* float: left; */
+/*  */
+margin: 0.2em;
+padding:.5em;
+cursor: pointer;
+background: transparent;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-font-smoothing: antialiased;
+
+}
