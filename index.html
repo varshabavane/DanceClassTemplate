@@ -18,33 +18,45 @@
     <section class="navBackground">
         <!-- <img src="img/1.jpg" style="height: 500px; width: 100%;"> -->
 
-        <div class="nav container">
+        <div class="nav container" id="Home">
             <div class="row">
                 <div class="nav">
                     <div class="logo" style="float:left;">
                         <!-- <img src=""> -->
-                        <h3  class="logo" style="padding:0; border-color:transparent; font-weight:bolder; font-size:30px; color:white;  padding-left:40px;">TORNADO<br><span
+                        <h3 class="logo" style="padding:0; border-color:transparent; font-weight:bolder; font-size:30px; color:white;  padding-left:40px;">TORNADO<br><span
                                 style="color:orangered; font-weight:bold; padding-left:80px; font-family: 'Courier New', Courier, monospace; font-size:30px; margin-top:0">Dance</span></h3>
                     </div>
                     <ul>
                         <li><a href="#Home">Home</a></li>
-                        <li><a href="About">About</a></li>
-                        <li><a href="class">Class</a></li>
-                        <li><a href="teacher">Teachers</a></li>
-                        <li><a href="contact">Gallery</a></li>
-                        <li><a href="contact">Contact</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#class">Class</a></li>
+                        <li><a href="#teachers">Teachers</a></li>
+                        <li><a href="#danceGallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
 
                     </ul>
                 </div>
             </div>
         </div>
     </section>
+    <!-- icon for top bar -->
+    <div class="" style="position:fixed; float: left; height: 80px; 
+    width:20px; padding-left:12px; float: right; background:transparent;">
+        <a href="#Home">
+            <i class="fa fa-arrow-up" id="Home" style="border-color:gray; border-radius: 50%; margin: 2px;"></i>
+            <br>
+                <i class="fa fa-arrow-down" id="Home" style="border-color:gray; border-radius: 50%; margin: 2px;">
+
+                </i>
+        </a>
+
+    </div>
 
 
     <!-- -----------------------------About Us----------------- -->
     <section class="aboutPage">
         <div class="container-fluid">
-            <h3>About<span> Our Academy</span>
+            <h3 id="About">About<span> Our Academy</span>
             </h3>
             <div class="row">
                 <div class="col-md-6">
@@ -74,7 +86,7 @@
     <!-- ---------------------------------------teachers------------------------------ -->
     <section class="teachers">
         <div class="container-fluid">
-            <h3>Teachers</h3>
+            <h3 id="teachers">Teachers</h3>
             <div id="#MyCarousel" class="carousel slide text-center" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#MyCarousel" data-slide-to="0" class="active"></li>
@@ -128,45 +140,45 @@
                 <h3>Home > Dance</h3>
             </div>
         </section> -->
-    
-        <!--  -->
-    
-        <div class="DancePage">
-                <div class="dance container-fluid">
-                        <h3>ZUMBA <span>DANCE</span></h3>
 
-                    <div class="col-md-5">
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                            when
-                            looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                            distribution
-                            of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                            Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
-                            text,
-                            and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions
-                            have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the
-                            like).
-                        </p>
-                        <button class="btn btn-md dancebtn"><a href="dance.html">read More..</a></button>
-                    </div>
-                    <div class="DanceVideo col-md-7">
-                        <video width="100%" height="auto" controls>
-                            <source src="Video/Ballet - 373.mp4" type="video/mp4" style="width:1200px;">
-                            <!-- <source src="movie.ogg" type="video/ogg"> -->
-                            Your browser does not support the video tag.
-                        </video>
-        
-                    </div>
-        
-                </div>
+    <!--  -->
+
+    <div class="DancePage">
+        <div class="dance container-fluid">
+            <h3 id="dance">ZUMBA <span>DANCE</span></h3>
+
+            <div class="col-md-5">
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                    when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution
+                    of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
+                    text,
+                    and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions
+                    have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the
+                    like).
+                </p>
+                <button class="btn btn-md dancebtn"><a href="dance.html">read More..</a></button>
             </div>
-        
-    
-    
+            <div class="DanceVideo col-md-7">
+                <video width="100%" height="auto" controls>
+                    <source src="Video/Ballet - 373.mp4" type="video/mp4" style="width:1200px;">
+                    <!-- <source src="movie.ogg" type="video/ogg"> -->
+                    Your browser does not support the video tag.
+                </video>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
 
     <!-- ------------------------gallery--------------------- -->
     <div class="container-fluid danceGallery">
-        <h3 style=" ">photo <span style="">Gallery</span></h3>
+        <h3 style=" " id="danceGallery">photo <span style="">Gallery</span></h3>
         <div class="row">
             <div class="col-md-12">
                 <div class="col-md-3">
@@ -246,7 +258,7 @@
 
         <!-- -----------------------------contact--------------------- -->
         <section class="contactPage">
-            <h3 class="heading">Contact <span> Details</span></h3>
+            <h3 class="heading" id="contact">Contact <span> Details</span></h3>
 
             <div class="container-fluid contact">
                 <!-- <img src="img/landing/2.jpg"> -->
@@ -296,7 +308,8 @@
                             <h5><i class="fa fa-user" style="" class="contact_icons"></i> pooja ghawat/ Anupam Sir</h5>
                             <h5><i class="fa fa-envelope" class="contact_icons"></i>Tornado.Academy@gmail.com</h5>
                             <h5><i class="fa fa-phone" class="contact_icons"></i> +91 2232768912 / +91 123456987</h5>
-                            <h5><i class="fa fa-map-marker" class="contact_icons"></i> Tornado Dance Academy,Saidham Society,Near SBI
+                            <h5><i class="fa fa-map-marker" class="contact_icons"></i> Tornado Dance Academy,Saidham
+                                Society,Near SBI
                                 Bank,shahad(w)</h5>
                         </div>
                     </div>
