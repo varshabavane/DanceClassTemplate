@@ -78,11 +78,45 @@ span {
     color:white;
     margin:30px;
 }
+/* --------------------------------------------dance------------------------------- */
+.dancecateogary{
+    /* background: url(img/1.jpg) */
+}
+
+.dance{
+}
+        .dance p{
+            text-align: justify;
+            color:white;
+            font-weight: 100;
+
+        }
+        .dance .dancebtn{
+            margin-top: 20px;
+            padding:10px;
+            text-align: center;
+            border-color:orangered;
+            width:100px;
+            height: 40px;
+            color:white;
+            background-color: transparent;
+            /* align-self: initial; */
+            float: left;
+
+        }
+        .dancebtn:hover{
+            background-color: white;
+            color:orangered;
+            /* border-color:white; */
+
+        }
 
 
 /* ---------------------------------------teachers---------------------------------- */
 .teachers{
     /* background: rgb(186, 216, 228); */
+    background:rgb(22, 21, 21);
+
 }
 .carousel-control.right,
 .carousel-control.left {
@@ -125,6 +159,10 @@ span {
 
 
 /* -----------------------------gallery------------------------------ */
+.danceGallery{
+    background:rgb(22, 21, 21);
+
+}
 .thumbnail {
     border-color: transparent;
 }
@@ -138,6 +176,9 @@ img:hover{
 
 
 /* -----------------------------contact--------------------------------- */
+.contactPage{
+    /* background-color: black; */
+}
 .contact {
     /* padding:30px; */
     background-image: url(img/landing/2.jpg);
